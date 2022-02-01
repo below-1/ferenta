@@ -1,0 +1,1838 @@
+[
+  {
+    "model": "app.Pinjaman",
+    "pk": 1,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-1",
+      "sex": "WN",
+      "status": "JD",
+      "pekerjaan": "PT",
+      "penghasilan": 2060000,
+      "tanggungan": 1,
+      "besar_pinjaman": 23000000,
+      "potongan_koperasi": 600000,
+      "penghasilan_end": 1460000,
+      "created_at": "2021-12-12T13:41:26.441038",
+      "updated_at": "2021-12-12T13:41:26.441090"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 2,
+    "fields": {
+      "keterangan": "TL",
+      "nama": "anggota-2",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "HO",
+      "penghasilan": 2110000,
+      "tanggungan": 4,
+      "besar_pinjaman": 36000000,
+      "potongan_koperasi": 1686570,
+      "penghasilan_end": 423429,
+      "created_at": "2021-12-12T13:41:26.441141",
+      "updated_at": "2021-12-12T13:41:26.441163"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 5,
+    "fields": {
+      "keterangan": "TL",
+      "nama": "anggota-5",
+      "sex": "WN",
+      "status": "JD",
+      "pekerjaan": "HO",
+      "penghasilan": 1860000,
+      "tanggungan": 1,
+      "besar_pinjaman": 25000000,
+      "potongan_koperasi": 832000,
+      "penghasilan_end": 1028000,
+      "created_at": "2021-12-12T13:41:26.441341",
+      "updated_at": "2021-12-12T13:41:26.441363"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 8,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-8",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "HO",
+      "penghasilan": 2110000,
+      "tanggungan": 0,
+      "besar_pinjaman": 20000000,
+      "potongan_koperasi": 1000000,
+      "penghasilan_end": 1110000,
+      "created_at": "2021-12-12T13:41:26.441562",
+      "updated_at": "2021-12-12T13:41:26.441583"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 9,
+    "fields": {
+      "keterangan": "TL",
+      "nama": "anggota-9",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "PT",
+      "penghasilan": 1860000,
+      "tanggungan": 1,
+      "besar_pinjaman": 10000000,
+      "potongan_koperasi": 870000,
+      "penghasilan_end": 990000,
+      "created_at": "2021-12-12T13:41:26.441627",
+      "updated_at": "2021-12-12T13:41:26.441648"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 11,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-11",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "HO",
+      "penghasilan": 1960000,
+      "tanggungan": 0,
+      "besar_pinjaman": 6000000,
+      "potongan_koperasi": 753000,
+      "penghasilan_end": 1207000,
+      "created_at": "2021-12-12T13:41:26.441758",
+      "updated_at": "2021-12-12T13:41:26.441781"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 12,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-12",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "HO",
+      "penghasilan": 1660000,
+      "tanggungan": 3,
+      "besar_pinjaman": 5000000,
+      "potongan_koperasi": 363000,
+      "penghasilan_end": 1297000,
+      "created_at": "2021-12-12T13:41:26.441824",
+      "updated_at": "2021-12-12T13:41:26.441845"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 13,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-13",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "HO",
+      "penghasilan": 2010000,
+      "tanggungan": 1,
+      "besar_pinjaman": 32000000,
+      "potongan_koperasi": 1049333,
+      "penghasilan_end": 960667,
+      "created_at": "2021-12-12T13:41:26.441891",
+      "updated_at": "2021-12-12T13:41:26.441912"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 14,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-14",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "HO",
+      "penghasilan": 1860000,
+      "tanggungan": 2,
+      "besar_pinjaman": 10000000,
+      "potongan_koperasi": 700000,
+      "penghasilan_end": 1160000,
+      "created_at": "2021-12-12T13:41:26.441955",
+      "updated_at": "2021-12-12T13:41:26.441976"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 20,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-20",
+      "sex": "WN",
+      "status": "JD",
+      "pekerjaan": "HO",
+      "penghasilan": 2010000,
+      "tanggungan": 2,
+      "besar_pinjaman": 20000000,
+      "potongan_koperasi": 1000000,
+      "penghasilan_end": 1010000,
+      "created_at": "2021-12-12T13:41:26.442376",
+      "updated_at": "2021-12-12T13:41:26.442401"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 26,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-26",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "HO",
+      "penghasilan": 2010000,
+      "tanggungan": 2,
+      "besar_pinjaman": 5000000,
+      "potongan_koperasi": 493000,
+      "penghasilan_end": 1517000,
+      "created_at": "2021-12-12T13:41:26.442765",
+      "updated_at": "2021-12-12T13:41:26.442786"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 28,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-28",
+      "sex": "WN",
+      "status": "JD",
+      "pekerjaan": "HO",
+      "penghasilan": 1860000,
+      "tanggungan": 2,
+      "besar_pinjaman": 10000000,
+      "potongan_koperasi": 627000,
+      "penghasilan_end": 1233000,
+      "created_at": "2021-12-12T13:41:26.442896",
+      "updated_at": "2021-12-12T13:41:26.442917"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 29,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-29",
+      "sex": "WN",
+      "status": "LJ",
+      "pekerjaan": "HO",
+      "penghasilan": 1960000,
+      "tanggungan": 0,
+      "besar_pinjaman": 30000000,
+      "potongan_koperasi": 1339000,
+      "penghasilan_end": 621000,
+      "created_at": "2021-12-12T13:41:26.442970",
+      "updated_at": "2021-12-12T13:41:26.442995"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 32,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-32",
+      "sex": "WN",
+      "status": "JD",
+      "pekerjaan": "HO",
+      "penghasilan": 2010000,
+      "tanggungan": 1,
+      "besar_pinjaman": 15000000,
+      "potongan_koperasi": 697000,
+      "penghasilan_end": 1313000,
+      "created_at": "2021-12-12T13:41:26.443166",
+      "updated_at": "2021-12-12T13:41:26.443187"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 34,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-34",
+      "sex": "PR",
+      "status": "LJ",
+      "pekerjaan": "HO",
+      "penghasilan": 1660000,
+      "tanggungan": 0,
+      "besar_pinjaman": 10000000,
+      "potongan_koperasi": 830000,
+      "penghasilan_end": 830000,
+      "created_at": "2021-12-12T13:41:26.443295",
+      "updated_at": "2021-12-12T13:41:26.443317"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 36,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-36",
+      "sex": "WN",
+      "status": "JD",
+      "pekerjaan": "HO",
+      "penghasilan": 1760000,
+      "tanggungan": 2,
+      "besar_pinjaman": 7000000,
+      "potongan_koperasi": 462667,
+      "penghasilan_end": 1297333,
+      "created_at": "2021-12-12T13:41:26.443432",
+      "updated_at": "2021-12-12T13:41:26.443461"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 37,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-37",
+      "sex": "WN",
+      "status": "JD",
+      "pekerjaan": "HO",
+      "penghasilan": 2010000,
+      "tanggungan": 1,
+      "besar_pinjaman": 17000000,
+      "potongan_koperasi": 757000,
+      "penghasilan_end": 1253000,
+      "created_at": "2021-12-12T13:41:26.443505",
+      "updated_at": "2021-12-12T13:41:26.443528"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 39,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-39",
+      "sex": "WN",
+      "status": "JD",
+      "pekerjaan": "HO",
+      "penghasilan": 1860000,
+      "tanggungan": 3,
+      "besar_pinjaman": 20000000,
+      "potongan_koperasi": 906000,
+      "penghasilan_end": 954000,
+      "created_at": "2021-12-12T13:41:26.443634",
+      "updated_at": "2021-12-12T13:41:26.443655"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 41,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-41",
+      "sex": "WN",
+      "status": "LJ",
+      "pekerjaan": "HO",
+      "penghasilan": 2110000,
+      "tanggungan": 0,
+      "besar_pinjaman": 20000000,
+      "potongan_koperasi": 950000,
+      "penghasilan_end": 1160000,
+      "created_at": "2021-12-12T13:41:26.443759",
+      "updated_at": "2021-12-12T13:41:26.443780"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 43,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-43",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "HO",
+      "penghasilan": 1810000,
+      "tanggungan": 2,
+      "besar_pinjaman": 50000000,
+      "potongan_koperasi": 1370000,
+      "penghasilan_end": 440000,
+      "created_at": "2021-12-12T13:41:26.443886",
+      "updated_at": "2021-12-12T13:41:26.443907"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 44,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-44",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "HO",
+      "penghasilan": 2160000,
+      "tanggungan": 2,
+      "besar_pinjaman": 30000000,
+      "potongan_koperasi": 1334000,
+      "penghasilan_end": 826000,
+      "created_at": "2021-12-12T13:41:26.443950",
+      "updated_at": "2021-12-12T13:41:26.443971"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 45,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-45",
+      "sex": "WN",
+      "status": "JD",
+      "pekerjaan": "HO",
+      "penghasilan": 2010000,
+      "tanggungan": 2,
+      "besar_pinjaman": 5000000,
+      "potongan_koperasi": 371500,
+      "penghasilan_end": 1638500,
+      "created_at": "2021-12-12T13:41:26.444014",
+      "updated_at": "2021-12-12T13:41:26.444035"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 46,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-46",
+      "sex": "WN",
+      "status": "JD",
+      "pekerjaan": "HO",
+      "penghasilan": 2060000,
+      "tanggungan": 0,
+      "besar_pinjaman": 15000000,
+      "potongan_koperasi": 1000000,
+      "penghasilan_end": 1060000,
+      "created_at": "2021-12-12T13:41:26.444076",
+      "updated_at": "2021-12-12T13:41:26.444099"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 47,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-47",
+      "sex": "WN",
+      "status": "LJ",
+      "pekerjaan": "HO",
+      "penghasilan": 1860000,
+      "tanggungan": 0,
+      "besar_pinjaman": 6000000,
+      "potongan_koperasi": 50000,
+      "penghasilan_end": 1810000,
+      "created_at": "2021-12-12T13:41:26.444140",
+      "updated_at": "2021-12-12T13:41:26.444161"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 48,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-48",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "HO",
+      "penghasilan": 1860000,
+      "tanggungan": 12,
+      "besar_pinjaman": 12000000,
+      "potongan_koperasi": 614000,
+      "penghasilan_end": 1246000,
+      "created_at": "2021-12-12T13:41:26.444206",
+      "updated_at": "2021-12-12T13:41:26.444228"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 49,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-49",
+      "sex": "WN",
+      "status": "JD",
+      "pekerjaan": "HO",
+      "penghasilan": 1860000,
+      "tanggungan": 1,
+      "besar_pinjaman": 3000000,
+      "potongan_koperasi": 407167,
+      "penghasilan_end": 1452833,
+      "created_at": "2021-12-12T13:41:26.444268",
+      "updated_at": "2021-12-12T13:41:26.444289"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 57,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-57",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 7182200,
+      "tanggungan": 0,
+      "besar_pinjaman": 50000000,
+      "potongan_koperasi": 2428333,
+      "penghasilan_end": 4753867,
+      "created_at": "2021-12-12T13:41:26.444801",
+      "updated_at": "2021-12-12T13:41:26.444832"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 63,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-63",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 6073700,
+      "tanggungan": 1,
+      "besar_pinjaman": 40000000,
+      "potongan_koperasi": 50000,
+      "penghasilan_end": 6023700,
+      "created_at": "2021-12-12T13:41:26.445199",
+      "updated_at": "2021-12-12T13:41:26.445227"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 66,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-66",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 5930000,
+      "tanggungan": 0,
+      "besar_pinjaman": 15000000,
+      "potongan_koperasi": 1660000,
+      "penghasilan_end": 4270000,
+      "created_at": "2021-12-12T13:41:26.445401",
+      "updated_at": "2021-12-12T13:41:26.445422"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 67,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-67",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 5930000,
+      "tanggungan": 0,
+      "besar_pinjaman": 1000000,
+      "potongan_koperasi": 1081667,
+      "penghasilan_end": 4848333,
+      "created_at": "2021-12-12T13:41:26.445465",
+      "updated_at": "2021-12-12T13:41:26.445486"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 69,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-69",
+      "sex": "WN",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 5930000,
+      "tanggungan": 2,
+      "besar_pinjaman": 20000000,
+      "potongan_koperasi": 2106667,
+      "penghasilan_end": 3823333,
+      "created_at": "2021-12-12T13:41:26.445594",
+      "updated_at": "2021-12-12T13:41:26.445628"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 70,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-70",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 6020000,
+      "tanggungan": 2,
+      "besar_pinjaman": 35000000,
+      "potongan_koperasi": 1153333,
+      "penghasilan_end": 4866667,
+      "created_at": "2021-12-12T13:41:26.445672",
+      "updated_at": "2021-12-12T13:41:26.445694"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 71,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-71",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 8720000,
+      "tanggungan": 2,
+      "besar_pinjaman": 845000000,
+      "potongan_koperasi": 2656833,
+      "penghasilan_end": 6063167,
+      "created_at": "2021-12-12T13:41:26.445747",
+      "updated_at": "2021-12-12T13:41:26.445768"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 72,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-72",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 5688900,
+      "tanggungan": 2,
+      "besar_pinjaman": 65000000,
+      "potongan_koperasi": 4411970,
+      "penghasilan_end": 1276930,
+      "created_at": "2021-12-12T13:41:26.445821",
+      "updated_at": "2021-12-12T13:41:26.445842"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 74,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-74",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 5688900,
+      "tanggungan": 1,
+      "besar_pinjaman": 15000000,
+      "potongan_koperasi": 1530000,
+      "penghasilan_end": 4158900,
+      "created_at": "2021-12-12T13:41:26.445960",
+      "updated_at": "2021-12-12T13:41:26.445985"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 78,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-78",
+      "sex": "WN",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 5863400,
+      "tanggungan": 1,
+      "besar_pinjaman": 25000000,
+      "potongan_koperasi": 400000,
+      "penghasilan_end": 5463400,
+      "created_at": "2021-12-12T13:41:26.446256",
+      "updated_at": "2021-12-12T13:41:26.446277"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 79,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-79",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 5863400,
+      "tanggungan": 2,
+      "besar_pinjaman": 5500000,
+      "potongan_koperasi": 50000,
+      "penghasilan_end": 5813400,
+      "created_at": "2021-12-12T13:41:26.446344",
+      "updated_at": "2021-12-12T13:41:26.446367"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 82,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-82",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 5626900,
+      "tanggungan": 0,
+      "besar_pinjaman": 20000000,
+      "potongan_koperasi": 895556,
+      "penghasilan_end": 4731344,
+      "created_at": "2021-12-12T13:41:26.446540",
+      "updated_at": "2021-12-12T13:41:26.446561"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 83,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-83",
+      "sex": "WN",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 5119400,
+      "tanggungan": 0,
+      "besar_pinjaman": 23000000,
+      "potongan_koperasi": 1026222,
+      "penghasilan_end": 4093178,
+      "created_at": "2021-12-12T13:41:26.446605",
+      "updated_at": "2021-12-12T13:41:26.446635"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 84,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-84",
+      "sex": "WN",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 5626900,
+      "tanggungan": 1,
+      "besar_pinjaman": 50000000,
+      "potongan_koperasi": 1603333,
+      "penghasilan_end": 4023567,
+      "created_at": "2021-12-12T13:41:26.446679",
+      "updated_at": "2021-12-12T13:41:26.446701"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 85,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-85",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 5711500,
+      "tanggungan": 2,
+      "besar_pinjaman": 55000000,
+      "potongan_koperasi": 169833,
+      "penghasilan_end": 5541667,
+      "created_at": "2021-12-12T13:41:26.446744",
+      "updated_at": "2021-12-12T13:41:26.446767"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 86,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-86",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 5204000,
+      "tanggungan": 1,
+      "besar_pinjaman": 20000000,
+      "potongan_koperasi": 773333,
+      "penghasilan_end": 4430667,
+      "created_at": "2021-12-12T13:41:26.446808",
+      "updated_at": "2021-12-12T13:41:26.446830"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 87,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-87",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 5711500,
+      "tanggungan": 1,
+      "besar_pinjaman": 58500000,
+      "potongan_koperasi": 1870500,
+      "penghasilan_end": 3841000,
+      "created_at": "2021-12-12T13:41:26.446871",
+      "updated_at": "2021-12-12T13:41:26.446895"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 88,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-88",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 5564300,
+      "tanggungan": 0,
+      "besar_pinjaman": 60000000,
+      "potongan_koperasi": 1900000,
+      "penghasilan_end": 3664300,
+      "created_at": "2021-12-12T13:41:26.446937",
+      "updated_at": "2021-12-12T13:41:26.446959"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 90,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-90",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 5814800,
+      "tanggungan": 1,
+      "besar_pinjaman": 10000000,
+      "potongan_koperasi": 1038333,
+      "penghasilan_end": 4776467,
+      "created_at": "2021-12-12T13:41:26.447079",
+      "updated_at": "2021-12-12T13:41:26.447101"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 91,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-91",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 5528400,
+      "tanggungan": 1,
+      "besar_pinjaman": 10000000,
+      "potongan_koperasi": 50000,
+      "penghasilan_end": 5478400,
+      "created_at": "2021-12-12T13:41:26.447144",
+      "updated_at": "2021-12-12T13:41:26.447165"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 92,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-92",
+      "sex": "WN",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 5010300,
+      "tanggungan": 0,
+      "besar_pinjaman": 20000000,
+      "potongan_koperasi": 2150000,
+      "penghasilan_end": 2860300,
+      "created_at": "2021-12-12T13:41:26.447215",
+      "updated_at": "2021-12-12T13:41:26.447238"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 94,
+    "fields": {
+      "keterangan": "TL",
+      "nama": "anggota-94",
+      "sex": "WN",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 5380900,
+      "tanggungan": 1,
+      "besar_pinjaman": 20000000,
+      "potongan_koperasi": 554667,
+      "penghasilan_end": 4826233,
+      "created_at": "2021-12-12T13:41:26.447343",
+      "updated_at": "2021-12-12T13:41:26.447372"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 95,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-95",
+      "sex": "WN",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 4878600,
+      "tanggungan": 0,
+      "besar_pinjaman": 54000000,
+      "potongan_koperasi": 1410000,
+      "penghasilan_end": 3468600,
+      "created_at": "2021-12-12T13:41:26.447418",
+      "updated_at": "2021-12-12T13:41:26.447447"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 98,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-98",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 5017600,
+      "tanggungan": 2,
+      "besar_pinjaman": 15000000,
+      "potongan_koperasi": 752222,
+      "penghasilan_end": 4265378,
+      "created_at": "2021-12-12T13:41:26.447616",
+      "updated_at": "2021-12-12T13:41:26.447637"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 99,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-99",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 5177600,
+      "tanggungan": 1,
+      "besar_pinjaman": 80000000,
+      "potongan_koperasi": 2090741,
+      "penghasilan_end": 3086859,
+      "created_at": "2021-12-12T13:41:26.447679",
+      "updated_at": "2021-12-12T13:41:26.447700"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 102,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-102",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 4416300,
+      "tanggungan": 2,
+      "besar_pinjaman": 10000000,
+      "potongan_koperasi": 510000,
+      "penghasilan_end": 3906300,
+      "created_at": "2021-12-12T13:41:26.447871",
+      "updated_at": "2021-12-12T13:41:26.447902"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 103,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-103",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 3444100,
+      "tanggungan": 0,
+      "besar_pinjaman": 5000000,
+      "potongan_koperasi": 635000,
+      "penghasilan_end": 2809100,
+      "created_at": "2021-12-12T13:41:26.447946",
+      "updated_at": "2021-12-12T13:41:26.447968"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 104,
+    "fields": {
+      "keterangan": "TL",
+      "nama": "anggota-104",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 4351000,
+      "tanggungan": 1,
+      "besar_pinjaman": 20000000,
+      "potongan_koperasi": 50000,
+      "penghasilan_end": 4301000,
+      "created_at": "2021-12-12T13:41:26.448011",
+      "updated_at": "2021-12-12T13:41:26.448032"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 106,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-106",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 4130900,
+      "tanggungan": 2,
+      "besar_pinjaman": 34000000,
+      "potongan_koperasi": 1491444,
+      "penghasilan_end": 2639456,
+      "created_at": "2021-12-12T13:41:26.448138",
+      "updated_at": "2021-12-12T13:41:26.448159"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 108,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-108",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 7224400,
+      "tanggungan": 0,
+      "besar_pinjaman": 100000000,
+      "potongan_koperasi": 2093333,
+      "penghasilan_end": 5131067,
+      "created_at": "2021-12-12T13:41:26.448296",
+      "updated_at": "2021-12-12T13:41:26.448321"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 111,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-111",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 5415100,
+      "tanggungan": 0,
+      "besar_pinjaman": 35000000,
+      "potongan_koperasi": 2018333,
+      "penghasilan_end": 3396767,
+      "created_at": "2021-12-12T13:41:26.448502",
+      "updated_at": "2021-12-12T13:41:26.448523"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 112,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-112",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 5190500,
+      "tanggungan": 0,
+      "besar_pinjaman": 15000000,
+      "potongan_koperasi": 696667,
+      "penghasilan_end": 4493833,
+      "created_at": "2021-12-12T13:41:26.448565",
+      "updated_at": "2021-12-12T13:41:26.448589"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 113,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-113",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 5270900,
+      "tanggungan": 1,
+      "besar_pinjaman": 35000000,
+      "potongan_koperasi": 1527222,
+      "penghasilan_end": 3743678,
+      "created_at": "2021-12-12T13:41:26.448641",
+      "updated_at": "2021-12-12T13:41:26.448662"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 114,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-114",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 6683700,
+      "tanggungan": 1,
+      "besar_pinjaman": 25000000,
+      "potongan_koperasi": 1753333,
+      "penghasilan_end": 4930367,
+      "created_at": "2021-12-12T13:41:26.448704",
+      "updated_at": "2021-12-12T13:41:26.448725"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 116,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-116",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 5720900,
+      "tanggungan": 2,
+      "besar_pinjaman": 25000000,
+      "potongan_koperasi": 1045769,
+      "penghasilan_end": 4675131,
+      "created_at": "2021-12-12T13:41:26.448830",
+      "updated_at": "2021-12-12T13:41:26.448858"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 117,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-117",
+      "sex": "WN",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 5110200,
+      "tanggungan": 0,
+      "besar_pinjaman": 35000000,
+      "potongan_koperasi": 1740000,
+      "penghasilan_end": 3370200,
+      "created_at": "2021-12-12T13:41:26.448904",
+      "updated_at": "2021-12-12T13:41:26.448925"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 118,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-118",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 5131100,
+      "tanggungan": 0,
+      "besar_pinjaman": 25000000,
+      "potongan_koperasi": 2091667,
+      "penghasilan_end": 3039433,
+      "created_at": "2021-12-12T13:41:26.448968",
+      "updated_at": "2021-12-12T13:41:26.448989"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 119,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-119",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 5053300,
+      "tanggungan": 1,
+      "besar_pinjaman": 30000000,
+      "potongan_koperasi": 1314000,
+      "penghasilan_end": 3739300,
+      "created_at": "2021-12-12T13:41:26.449032",
+      "updated_at": "2021-12-12T13:41:26.449062"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 121,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-121",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 4736900,
+      "tanggungan": 1,
+      "besar_pinjaman": 15000000,
+      "potongan_koperasi": 1275000,
+      "penghasilan_end": 3461900,
+      "created_at": "2021-12-12T13:41:26.449171",
+      "updated_at": "2021-12-12T13:41:26.449191"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 122,
+    "fields": {
+      "keterangan": "TL",
+      "nama": "anggota-122",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 4427000,
+      "tanggungan": 3,
+      "besar_pinjaman": 40000000,
+      "potongan_koperasi": 2316667,
+      "penghasilan_end": 2110333,
+      "created_at": "2021-12-12T13:41:26.449234",
+      "updated_at": "2021-12-12T13:41:26.449276"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 124,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-124",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 4139800,
+      "tanggungan": 0,
+      "besar_pinjaman": 35000000,
+      "potongan_koperasi": 808333,
+      "penghasilan_end": 3331467,
+      "created_at": "2021-12-12T13:41:26.449387",
+      "updated_at": "2021-12-12T13:41:26.449408"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 127,
+    "fields": {
+      "keterangan": "TL",
+      "nama": "anggota-127",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 4156100,
+      "tanggungan": 3,
+      "besar_pinjaman": 45000000,
+      "potongan_koperasi": 50000,
+      "penghasilan_end": 4106100,
+      "created_at": "2021-12-12T13:41:26.449580",
+      "updated_at": "2021-12-12T13:41:26.449602"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 128,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-128",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 4156100,
+      "tanggungan": 2,
+      "besar_pinjaman": 30000000,
+      "potongan_koperasi": 980000,
+      "penghasilan_end": 3176100,
+      "created_at": "2021-12-12T13:41:26.449659",
+      "updated_at": "2021-12-12T13:41:26.449683"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 130,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-130",
+      "sex": "WN",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 3932500,
+      "tanggungan": 0,
+      "besar_pinjaman": 10000000,
+      "potongan_koperasi": 438095,
+      "penghasilan_end": 3494405,
+      "created_at": "2021-12-12T13:41:26.449802",
+      "updated_at": "2021-12-12T13:41:26.449824"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 132,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-132",
+      "sex": "WN",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 4050300,
+      "tanggungan": 2,
+      "besar_pinjaman": 15000000,
+      "potongan_koperasi": 995000,
+      "penghasilan_end": 3055300,
+      "created_at": "2021-12-12T13:41:26.449930",
+      "updated_at": "2021-12-12T13:41:26.449950"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 133,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-133",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 3991400,
+      "tanggungan": 2,
+      "besar_pinjaman": 55000000,
+      "potongan_koperasi": 1455000,
+      "penghasilan_end": 2536400,
+      "created_at": "2021-12-12T13:41:26.449994",
+      "updated_at": "2021-12-12T13:41:26.450014"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 134,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-134",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 3947800,
+      "tanggungan": 2,
+      "besar_pinjaman": 23000000,
+      "potongan_koperasi": 614000,
+      "penghasilan_end": 3333800,
+      "created_at": "2021-12-12T13:41:26.450065",
+      "updated_at": "2021-12-12T13:41:26.450087"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 135,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-135",
+      "sex": "WN",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 3947800,
+      "tanggungan": 2,
+      "besar_pinjaman": 40000000,
+      "potongan_koperasi": 50000,
+      "penghasilan_end": 3897800,
+      "created_at": "2021-12-12T13:41:26.450130",
+      "updated_at": "2021-12-12T13:41:26.450158"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 136,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-136",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 3947800,
+      "tanggungan": 1,
+      "besar_pinjaman": 20000000,
+      "potongan_koperasi": 761667,
+      "penghasilan_end": 3186133,
+      "created_at": "2021-12-12T13:41:26.450204",
+      "updated_at": "2021-12-12T13:41:26.450224"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 139,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-139",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 4819000,
+      "tanggungan": 0,
+      "besar_pinjaman": 35000000,
+      "potongan_koperasi": 1110000,
+      "penghasilan_end": 3709000,
+      "created_at": "2021-12-12T13:41:26.450422",
+      "updated_at": "2021-12-12T13:41:26.450443"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 140,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-140",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 4898500,
+      "tanggungan": 1,
+      "besar_pinjaman": 12496000,
+      "potongan_koperasi": 835856,
+      "penghasilan_end": 4062644,
+      "created_at": "2021-12-12T13:41:26.450485",
+      "updated_at": "2021-12-12T13:41:26.450507"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 142,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-142",
+      "sex": "WN",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 4361400,
+      "tanggungan": 1,
+      "besar_pinjaman": 30000000,
+      "potongan_koperasi": 1500000,
+      "penghasilan_end": 2861400,
+      "created_at": "2021-12-12T13:41:26.450626",
+      "updated_at": "2021-12-12T13:41:26.450655"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 144,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-144",
+      "sex": "WN",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 3799000,
+      "tanggungan": 0,
+      "besar_pinjaman": 8500000,
+      "potongan_koperasi": 50000,
+      "penghasilan_end": 3749000,
+      "created_at": "2021-12-12T13:41:26.450763",
+      "updated_at": "2021-12-12T13:41:26.450793"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 145,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-145",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 4161100,
+      "tanggungan": 0,
+      "besar_pinjaman": 10000000,
+      "potongan_koperasi": 617778,
+      "penghasilan_end": 3543322,
+      "created_at": "2021-12-12T13:41:26.450837",
+      "updated_at": "2021-12-12T13:41:26.450858"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 146,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-146",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 3799000,
+      "tanggungan": 0,
+      "besar_pinjaman": 41000000,
+      "potongan_koperasi": 1499722,
+      "penghasilan_end": 2299278,
+      "created_at": "2021-12-12T13:41:26.450902",
+      "updated_at": "2021-12-12T13:41:26.450923"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 147,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-147",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 4306000,
+      "tanggungan": 2,
+      "besar_pinjaman": 50000000,
+      "potongan_koperasi": 50000,
+      "penghasilan_end": 4256000,
+      "created_at": "2021-12-12T13:41:26.450966",
+      "updated_at": "2021-12-12T13:41:26.450988"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 148,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-148",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 4180000,
+      "tanggungan": 0,
+      "besar_pinjaman": 30000000,
+      "potongan_koperasi": 1319833,
+      "penghasilan_end": 2860167,
+      "created_at": "2021-12-12T13:41:26.451031",
+      "updated_at": "2021-12-12T13:41:26.451052"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 149,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-149",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 4129300,
+      "tanggungan": 2,
+      "besar_pinjaman": 25000000,
+      "potongan_koperasi": 50000,
+      "penghasilan_end": 4079300,
+      "created_at": "2021-12-12T13:41:26.451093",
+      "updated_at": "2021-12-12T13:41:26.451124"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 152,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-152",
+      "sex": "WN",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 4120200,
+      "tanggungan": 2,
+      "besar_pinjaman": 12000000,
+      "potongan_koperasi": 43100,
+      "penghasilan_end": 4077100,
+      "created_at": "2021-12-12T13:41:26.451295",
+      "updated_at": "2021-12-12T13:41:26.451317"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 157,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-157",
+      "sex": "WN",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 3107300,
+      "tanggungan": 2,
+      "besar_pinjaman": 30000000,
+      "potongan_koperasi": 50000,
+      "penghasilan_end": 3057300,
+      "created_at": "2021-12-12T13:41:26.451667",
+      "updated_at": "2021-12-12T13:41:26.451688"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 159,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-159",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 3490800,
+      "tanggungan": 1,
+      "besar_pinjaman": 7000000,
+      "potongan_koperasi": 746833,
+      "penghasilan_end": 2743967,
+      "created_at": "2021-12-12T13:41:26.451795",
+      "updated_at": "2021-12-12T13:41:26.451818"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 160,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-160",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 3246000,
+      "tanggungan": 1,
+      "besar_pinjaman": 15000000,
+      "potongan_koperasi": 895000,
+      "penghasilan_end": 2351000,
+      "created_at": "2021-12-12T13:41:26.451862",
+      "updated_at": "2021-12-12T13:41:26.451884"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 163,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-163",
+      "sex": "WN",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 3107300,
+      "tanggungan": 0,
+      "besar_pinjaman": 20000000,
+      "potongan_koperasi": 673333,
+      "penghasilan_end": 2433967,
+      "created_at": "2021-12-12T13:41:26.452055",
+      "updated_at": "2021-12-12T13:41:26.452083"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 164,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-164",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 3436000,
+      "tanggungan": 1,
+      "besar_pinjaman": 7000000,
+      "potongan_koperasi": 50000,
+      "penghasilan_end": 3386000,
+      "created_at": "2021-12-12T13:41:26.452127",
+      "updated_at": "2021-12-12T13:41:26.452149"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 165,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-165",
+      "sex": "WN",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 3490800,
+      "tanggungan": 2,
+      "besar_pinjaman": 25000000,
+      "potongan_koperasi": 861818,
+      "penghasilan_end": 2628982,
+      "created_at": "2021-12-12T13:41:26.452192",
+      "updated_at": "2021-12-12T13:41:26.452213"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 169,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-169",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 3302900,
+      "tanggungan": 0,
+      "besar_pinjaman": 10000000,
+      "potongan_koperasi": 50000,
+      "penghasilan_end": 3252900,
+      "created_at": "2021-12-12T13:41:26.452450",
+      "updated_at": "2021-12-12T13:41:26.452488"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 170,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-170",
+      "sex": "WN",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 2942500,
+      "tanggungan": 1,
+      "besar_pinjaman": 1000000,
+      "potongan_koperasi": 178000,
+      "penghasilan_end": 2764500,
+      "created_at": "2021-12-12T13:41:26.452535",
+      "updated_at": "2021-12-12T13:41:26.452558"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 172,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-172",
+      "sex": "WN",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 2113800,
+      "tanggungan": 3,
+      "besar_pinjaman": 50000000,
+      "potongan_koperasi": 50000,
+      "penghasilan_end": 2063800,
+      "created_at": "2021-12-12T13:41:26.452668",
+      "updated_at": "2021-12-12T13:41:26.452693"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 173,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-173",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 4581800,
+      "tanggungan": 0,
+      "besar_pinjaman": 5000000,
+      "potongan_koperasi": 551667,
+      "penghasilan_end": 4030133,
+      "created_at": "2021-12-12T13:41:26.452735",
+      "updated_at": "2021-12-12T13:41:26.452755"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 174,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-174",
+      "sex": "WN",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 3436900,
+      "tanggungan": 1,
+      "besar_pinjaman": 28000000,
+      "potongan_koperasi": 1256778,
+      "penghasilan_end": 2180122,
+      "created_at": "2021-12-12T13:41:26.452796",
+      "updated_at": "2021-12-12T13:41:26.452817"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 176,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-176",
+      "sex": "WN",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 3692600,
+      "tanggungan": 1,
+      "besar_pinjaman": 5000000,
+      "potongan_koperasi": 65000,
+      "penghasilan_end": 3627600,
+      "created_at": "2021-12-12T13:41:26.452962",
+      "updated_at": "2021-12-12T13:41:26.452985"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 178,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-178",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 3923400,
+      "tanggungan": 2,
+      "besar_pinjaman": 32800000,
+      "potongan_koperasi": 50000,
+      "penghasilan_end": 3873400,
+      "created_at": "2021-12-12T13:41:26.453103",
+      "updated_at": "2021-12-12T13:41:26.453125"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 179,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-179",
+      "sex": "WN",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 3880700,
+      "tanggungan": 2,
+      "besar_pinjaman": 10000000,
+      "potongan_koperasi": 3666667,
+      "penghasilan_end": 214033,
+      "created_at": "2021-12-12T13:41:26.453170",
+      "updated_at": "2021-12-12T13:41:26.453189"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 180,
+    "fields": {
+      "keterangan": "TL",
+      "nama": "anggota-180",
+      "sex": "WN",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 3349900,
+      "tanggungan": 1,
+      "besar_pinjaman": 25000000,
+      "potongan_koperasi": 20000,
+      "penghasilan_end": 3329900,
+      "created_at": "2021-12-12T13:41:26.453232",
+      "updated_at": "2021-12-12T13:41:26.453253"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 181,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-181",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 3709200,
+      "tanggungan": 0,
+      "besar_pinjaman": 22000000,
+      "potongan_koperasi": 131600,
+      "penghasilan_end": 3577600,
+      "created_at": "2021-12-12T13:41:26.453295",
+      "updated_at": "2021-12-12T13:41:26.453316"
+    }
+  },
+  {
+    "model": "app.Pinjaman",
+    "pk": 182,
+    "fields": {
+      "keterangan": "LA",
+      "nama": "anggota-182",
+      "sex": "PR",
+      "status": "JD",
+      "pekerjaan": "DO",
+      "penghasilan": 2496000,
+      "tanggungan": 1,
+      "besar_pinjaman": 5000000,
+      "potongan_koperasi": 343333,
+      "penghasilan_end": 2152667,
+      "created_at": "2021-12-12T13:41:26.453358",
+      "updated_at": "2021-12-12T13:41:26.453380"
+    }
+  }
+]

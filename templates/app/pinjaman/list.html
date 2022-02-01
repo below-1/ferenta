@@ -1,0 +1,54 @@
+{% extends 'app/base.html' %}
+
+{% block page_actions %}
+  <a href="/app/pinjaman/create" class="btn btn-primary d-none d-sm-inline-block">
+    <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><line x1="12" y1="5" x2="12" y2="19" /><line x1="5" y1="12" x2="19" y2="12" /></svg>
+    Tambah Pinjaman
+  </a>
+  <a href="/app/pinjaman/create" class="btn btn-primary d-sm-none btn-icon">
+    <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><line x1="12" y1="5" x2="12" y2="19" /><line x1="5" y1="12" x2="19" y2="12" /></svg>
+  </a>
+{% endblock %}
+
+{% block content %}
+  <div class="row">
+    <div class="col-12">
+      <div class="card">
+        <div class="card-body">
+          <table class="table">
+            <thead>
+              <tr>
+                <td>#</td>
+                <td colspan="2">Anggota</td>
+                <td>Penghasilan</td>
+                <td>Besar Pinjaman</td>
+                <td>Potongan Koperasi</td>
+                <td>Penghasilan - Potongan</td>
+                <td></td>
+              </tr>
+            </thead>
+            <tbody>
+              {% for item in items %}
+                <tr>
+                  <td>{{ forloop.counter }}</td>
+                  <td>
+                    <span class="avatar avatar-sm" style="background-image: url({{item.anggota.photo.url}})"></span>
+                  </td>
+                  <td>{{ item.anggota.nama }}</td>
+                  <td>{{ item.penghasilan|floatformat:"g" }}</td>
+                  <td>{{ item.nominal|floatformat:"g" }}</td>
+                  <td>{{ item.potongan_koperasi|floatformat:"g" }}</td>
+                  <td>{{ item.penghasilan_end|floatformat:"g" }}</td>
+                  <td>
+                    <a class="btn btn-info btn-sm me-2" href="/app/pinjaman/{{item.id}}/edit">edit</a>
+                    <a class="btn btn-danger btn-sm" href="/app/pinjaman/{{item.id}}/remove">hapus</a>
+                  </td>
+                </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}

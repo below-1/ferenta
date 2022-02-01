@@ -1,0 +1,17 @@
+{% extends 'app/base.html' %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+  <div class="row justify-center">
+    <div class="col-12 col-md-6">
+      <div class="card">
+        <div class="card-body">
+          {# <form id="pinjaman-form" method="POST" enctype="multipart/form-data"> #}
+            {% csrf_token %}
+            {% crispy form %}
+          {# </form> #}
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}

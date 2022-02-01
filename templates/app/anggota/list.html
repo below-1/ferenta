@@ -1,0 +1,53 @@
+{% extends 'app/base.html' %}
+
+{% block page_actions %}
+  <a href="/app/anggota/create" class="btn btn-primary d-none d-sm-inline-block">
+    <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><line x1="12" y1="5" x2="12" y2="19" /><line x1="5" y1="12" x2="19" y2="12" /></svg>
+    Tambah Data Anggota
+  </a>
+  <a href="/app/anggota/create" class="btn btn-primary d-sm-none btn-icon">
+    <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><line x1="12" y1="5" x2="12" y2="19" /><line x1="5" y1="12" x2="19" y2="12" /></svg>
+  </a>
+{% endblock %}
+
+{% block content %}
+  <div class="row justify-center">
+    <div class="col-12">
+      <div class="card">
+
+        <ul>
+          {% for item in items %}
+            <li style="display: flex; align-items: center; border-bottom: solid 1px #ddd;" class="py-2 px-3">
+              <img class="me-3" style="width: 2rem; height: 2rem;" src="{{item.photo.url}}"/>
+              <div style="flex-basis: 30%;">
+                <div style="font-size: 1rem; font-weight: bold;">{{ item.nama }}</div>
+                <div style="font-size: 0.8rem;" class="text-muted">{{ item.get_sex }}, {{ item.get_status }}, {{ item.get_umur.years }} tahun</div>
+              </div>
+              <div style="flex-basis: 30%;">
+                <div style="text-align: left; font-weight: 600; color: #555; font-size: 0.9rem;">
+                  <span>{{ item.get_pekerjaan }}</span>
+                  <span>, {{ item.penghasilan|floatformat:"g" }}</span>
+                </div>
+                <div class="text-muted">
+                  <span>{{ item.email }}</span>
+                  <span>, {{ item.telpon }}</span>
+                </div>
+              </div>
+              <span style="flex-grow: 1; text-align: right;" class="dropdown">
+                <button class="btn dropdown-toggle align-text-top" data-bs-boundary="viewport" data-bs-toggle="dropdown">Aksi</button>
+                <div class="dropdown-menu dropdown-menu-end">
+                  <a class="dropdown-item" href="/app/anggota/{{item.id}}/edit">
+                    Edit
+                  </a>
+                  <a class="dropdown-item" href="/app/anggota/{{item.id}}/remove">
+                    Hapus
+                  </a>
+                </div>
+              </span>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+{% endblock %}
